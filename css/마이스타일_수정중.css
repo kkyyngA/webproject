@@ -10,7 +10,7 @@ body{
 #name {
     font-family: 'CWDangamAsac-Bold';
     color: #685BAB;
-    font-size: 60px;
+    font-size: 100px;
     text-align: center;
     line-height: 2.0;
 }
@@ -39,7 +39,7 @@ body{
 .gmartB {
     font-family: 'GmarketSansBold';
     color: #8A7CD4;
-    font-size: 48px;
+    font-size: 60px;
     text-align: center;
 }
 
@@ -52,7 +52,19 @@ body{
 .gmartM {
     font-family: 'GmarketSansMedium';
     color: #000000;
-    font-size: 16px;
+    font-size: 22px;
+}
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.gmartL {
+  font-family: 'GmarketSansLight';
+  color: #000000;
+  font-size: 18px;
 }
 
 ul {
@@ -180,12 +192,16 @@ li.dropdown {
 .lilist {
   font-family: 'GmarketSansMedium';
   text-decoration: none;
+}
 
+.ultitle {
+  font-family: 'GmarketSansMedium';
+  text-decoration: none;
 }
 
 div.gallery {
   margin: 20px;
   padding: 20px;
-  border: 1px solid #ccc;
-  width: 90%;
+  border: 3px double #7DB249;
+  width: 95%;
 }
